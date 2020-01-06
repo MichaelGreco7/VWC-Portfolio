@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -13,7 +14,7 @@
 
 .header {
   background-color: #89b6a5;
-  height: 20%;
+  height: 15%;
 }
 
 .main {
@@ -22,5 +23,9 @@
 
 .footer {
   background-color: #4c3b4d;
-  height: 10%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
 }
