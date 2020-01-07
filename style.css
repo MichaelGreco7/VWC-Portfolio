@@ -7,6 +7,16 @@
 
 .header {
   background-color: #89b6a5;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 2em;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
 }
 
 .main {
