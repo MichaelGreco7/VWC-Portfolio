@@ -3,6 +3,7 @@ body {
   padding: 0;
   background: url(./images/background-pic.jpg) no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .box {
@@ -11,9 +12,11 @@ body {
   padding: 40px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   color: white;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 20%;
+  height: 800px;
 }
 
 .box-img {
@@ -61,4 +64,7 @@ ul {
 
 .box li a:hover {
   color: #b9b9b9;
+}
+
+@media screen and (min-width: 480px) and (min-height: 900px) {
 }
