@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(./images/background-pic.jpg) no-repeat;
+  background: url(./images/background-pic.jpg) top right no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
@@ -66,5 +67,7 @@ ul {
   color: #b9b9b9;
 }
 
-@media screen and (min-width: 480px) and (min-height: 900px) {
+@media screen and (min-width: 480px) {
+  .box {
+  }
 }
