@@ -1,22 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(./images/background-pic.jpg) top right no-repeat;
+  background: url(./images/background-pic.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
 
+.box-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box {
   width: 600px;
   background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
   text-align: center;
-  margin: auto;
-  margin-top: 10%;
   color: white;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 20%;
   height: 800px;
 }
 
