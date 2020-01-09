@@ -73,5 +73,7 @@ ul {
 
 @media screen and (min-width: 480px) {
   .box {
+    height: auto;
+    padding: 10px;
   }
 }
