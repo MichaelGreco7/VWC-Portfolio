@@ -12,10 +12,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .box {
-  width: 400px;
+  max-width: 1000px;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   color: white;
@@ -28,7 +29,7 @@ body {
 .box-img {
   border-radius: 50%;
   width: auto;
-  height: 400px;
+  max-height: 400px;
   margin-top: 30px;
 }
 
