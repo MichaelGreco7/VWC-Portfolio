@@ -4,6 +4,7 @@ body {
   background: url(./images/background-pic.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: fixed;
   height: 100vh;
 }
 
@@ -30,7 +31,7 @@ body {
   border-radius: 50%;
   width: auto;
   max-height: 400px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .box h1 {
