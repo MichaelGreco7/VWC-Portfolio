@@ -15,19 +15,21 @@ body {
 }
 
 .box {
-  width: 600px;
+  width: 400px;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
   height: auto;
-  padding-top: 20px;
+
+  margin: 30px;
 }
 
 .box-img {
   border-radius: 50%;
-  width: 400px;
+  width: auto;
   height: 400px;
+  margin-top: 10px;
 }
 
 .box h1 {
@@ -74,6 +76,6 @@ ul {
 @media screen and (min-width: 480px) {
   .box {
     height: auto;
-    padding: 10px;
+    width: auto;
   }
 }
